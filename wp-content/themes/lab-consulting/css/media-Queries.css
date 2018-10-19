@@ -1,0 +1,296 @@
+/*/ --------------- Media Queries ---------------/*/
+
+
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	.map {
+		font-size: 14px;
+	}
+	.nav__link, nav ul li a {
+	    font-size: 15px;
+	}
+	.nav__item {
+	    margin-right: 20px;
+	}
+	.slider {
+	    width: 250px;
+	}
+	nav ul li {
+	    margin-right: 20px;
+	}
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	.menu-link_mod {
+		margin-right: 0;
+	}
+	.letters {
+	    padding: 70px 0 30px 0;
+	}
+	.trust-title {
+		margin-bottom: 0;
+	}
+	.trust-element {
+		margin-top: 50px;
+	}
+	.letters-element {
+		margin-bottom: 50px;
+	}
+	.mission-element__button {
+		margin-bottom: 40px;
+	}
+	.logo-bottom__img {
+		max-width: 100%;
+	}
+	.logo-bottom {
+		margin: 30px 0 20px 0;
+	}
+	.line-short:after {
+	    width: 100%;
+	}
+	.line-thin:after {
+		width: 40%;
+	}
+	.about-wrap {
+		margin-bottom: 30px;
+	}
+	.services {
+		display: none;
+	}
+	.card {
+		width: auto;
+		height: auto;
+		margin-bottom: 50px;
+	}
+	.card-wrap {
+		margin-top: 25px;
+	}
+	.consultation {
+		width: 100%;
+	}
+	.card:before {
+		display: none;
+	}
+	.button-bottom {
+		display: none;
+	}
+	.map-wrap {
+		position: static;
+		height: 432px;
+    	width: 100%;
+	}
+	.map {
+		padding: 0;
+	}
+	.advantages-element {
+    	width: 85%;
+	}
+	.advantages-item:after {
+		width: 100%;
+	}
+	.power-element {
+		margin-top: 15px;
+	}
+	.slider {
+		width: 600px;
+	}
+	.nav__menu, .menu-osnovnoe {
+		border: 1px solid rgba(58, 68, 86, 0.3);
+		border-radius: 5px;
+	}
+	.menu-item {
+		padding: 10px;
+		font-size: 25px;
+		margin-right: 0!important;
+		position: relative;
+		border: 2px solid rgba(255, 255, 255, 0);
+		border-radius: 5px;
+	}
+	nav ul li a {
+		font-size: 17px;
+	}
+
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.circle-wrap__img {
+		margin-bottom: 40px;
+	}
+	.offer-text {
+	    width: 100%;
+	}
+	.logo-bottom {
+		max-width: 100%;
+	}
+	.mission-element_none {
+		display: block;
+		margin: 0 0 40px 0;
+	}
+	.menu {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+	}
+	.menu-link {
+		width: fit-content;
+	}
+	.advantages-main__text_left {
+		margin-bottom: 30px;
+	}
+	.card-wrap {
+		display: block;
+	}
+	.coaching {
+	    margin-top: 15px;
+	}
+	.button-bottom {
+		display: block;
+		margin-top: 20px;
+	}
+	.slider {
+		width: 400px;
+	}
+	.rl-hover-icon-10 .rl-gallery-link:before {
+	    content: '\f065';
+	}
+
+}
+
+/* 460-576px */
+@media screen and (max-width: 576px) {
+	h1 {
+		font-size: 45px;
+	}
+	.advantages-main {
+		display: block;
+	}
+	.footer {
+		padding: 50px 0 45px 0;
+	}
+	.trust-title {
+		font-size: 25px;
+	}
+	.news-element__text {
+		font-size: 12.5px;
+	}
+	.offer-text {
+	    font-size: 25px;
+	    font-family: 'Museo Sans 300';
+	}
+	.power-title {
+		font-size: 23px;
+	}
+	.advantages-title {
+		font-size: 23px;
+	}
+	.consultation {
+		height: auto;
+	}
+	.consultation__call {
+		display: none;
+	}
+	
+	.card {
+		font-size: 13px;
+	}
+	.card-wrap {
+		flex-direction: column;
+	}
+	.card-contacts, .card-right {
+		width: auto;
+	}
+	.card-right {
+		margin: 20px 0 0 0;
+	}
+	.mission-wrap {
+		flex-wrap: wrap;
+	}
+	.mission-element_right {
+		margin-left: 0;
+	}
+	.advantages-item {
+		display: block;
+	}
+	.advantages-icon {
+		margin-bottom: 20px;
+	}
+	.advantages-main__text {
+		width: auto;
+	}
+	.advantages-element {
+		width: 100%;
+	}
+	.logo-bottom__img {
+    	max-width: 200px;
+	}
+	.slider {
+		width: 280px;
+	}
+	.input-wrap {
+		width: 300px;
+	}
+	.input-wrap__element {
+		width: 100%;
+	}
+	.box-modal {
+	    padding: 30px;
+	}
+	.input-wrap__text {
+		display: none;
+	}
+	.line-thin:after {
+		width: 100%;
+	}
+}
+
+
+/* 320-460px */
+@media screen and (max-width: 460px) {
+	.card-head__title {
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
+	.button {
+		width: 39px;
+		height: 39px;
+		background: #1cb883;
+		display: block;
+		border-radius: 50%;
+		color: #fff;
+		font-size: 13px;
+		font-family: 'Museo Sans 700';
+	}
+	.button-text {
+		display: none;
+	}
+	.consultation {
+		text-align: center;
+	}
+	.consultation__text {
+		display: none;
+	}
+	.consultation__wrap {
+		flex-direction: column;
+	}
+	.consultation__link {
+		margin: 0 0 15px 0;
+	}
+	.card-head__wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+	.input-wrap {
+		width: 200px;
+	}
+	.input-wrap__button {
+		margin-top: 25px;
+	}
+	.wpcf7-form-control {
+		width: 100%;
+	}
+	.wpcf7 {
+		width: auto;
+	}
+}
